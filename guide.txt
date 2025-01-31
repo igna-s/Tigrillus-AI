@@ -1,0 +1,183 @@
+
+#ALL
+
+For the voices, you have to install the Windows voice of your choice
+https://support.microsoft.com/es-es/topic/descargar-el-paquete-de-idioma-para-voz-24d06ef3-ca09-ddcc-70a0-63606fd16394
+
+Or use the default One
+
+Then uncomment this part on Modules or voice_assistant_free
+
+    # Show all available voices in your computer, If you want another just install it
+    #for voice in engine.getProperty('voices'):
+    #    print(voice, voice.id)
+    #id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0"   #spanish (Mexico)
+
+
+
+
+
+#VOICE ASSISTANT FREE TIGRILLUS
+
+Only works with voice_assistant_free.py
+
+#Its in spanish, but you can change it to english, just change the idioma variable to False
+
+
+Commands
+
+"""
+Commands in English and Spanish:
+Start YouTube / Abrir YouTube
+
+English: "Start YouTube"
+Spanish: "Abrir YouTube"
+
+Start Google / Abrir Google
+English: "Start Google"
+Spanish: "Abrir Google"
+
+What day it is / ¿Qué día es?
+English: "What day it is"
+Spanish: "¿Qué día es?"
+
+What time it is / ¿Qué hora es?
+English: "What time it is"
+Spanish: "¿Qué hora es?"
+
+Goodbye / Adiós
+English: "Goodbye"
+Spanish: "Adiós"
+
+Search on Wikipedia / Buscar en Wikipedia
+English: "Wikipedia" (followed by the search term)
+Spanish: "Wikipedia" (seguido de la búsqueda)
+
+Your name / Tu nombre
+English: "What's your name?"
+Spanish: "¿Cuál es tu nombre?"
+
+Search for something / Buscar en internet
+English: "Search for" (followed by the search term)
+Spanish: "Busca en internet" (seguido de la búsqueda)
+
+Song / Reproducir canción
+English: "Song" (followed by the song name)
+Spanish: "Canción" (seguido del nombre de la canción)
+
+Joke / Contar un chiste
+English: "Joke"
+Spanish: "Chiste"
+
+Stock price / Valor de la bolsa
+English: "Stock price" (followed by the company name, e.g., 'apple', 'tesla', etc.)
+Spanish: "Valor bolsa" (seguido del nombre de la empresa, por ejemplo: 'apple', 'tesla', etc.)
+
+Saludo // Say hello
+English: "hi, my name is" (followed by the name)
+Spanish: "hola, mi nombre es" (seguido del nombre)
+
+
+
+
+#VOICE ASSISTANT TIGRILLUS AI 
+
+
+Uses the files modules.py and config.py
+You choose if you wanna use voice_assistant_tigrillus.[es(pañol) or en(glish)].py
+
+
+#How to obtain the api key
+
+
+
+https://www.geeksforgeeks.org/how-to-get-your-own-openai-api-key/
+
+
+
+#How to use
+
+if you say (Only) the word "salir" in spanish or "exit" in english the program will exit
+if you say (Only) the word "nuevo" in spanish or "new" in english Tigrillus will forget all you said
+
+
+
+
+
+A conversation of Tigrillus (Spanish)
+
+
+
+
+
+Bienvenido a Tigrillus, tu asistente personal =D 
+┏━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Comando ┃ Descripción               ┃
+┡━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ salir   │ Salir del asistente       │
+│ nuevo   │ Reiniciar la conversación │
+└─────────┴───────────────────────────┘
+Escuchando...
+Reconociendo...
+Lo que dijiste es: Buenas tardes cómo va todo por ahí
+
+ > ¡Hola! Soy Tigrillus y estoy aquí para ayudarte. Todo va muy bien, ¡gracias por preguntar! ¿Y tú, cómo estás? ✨
+Escuchando...
+Reconociendo...
+Lo que dijiste es: todo bien Che consulta Por qué cayó la Unión soviética
+
+ > Oh, qué pregunta tan interesante. La Unión Soviética cayó por varias razones: problemas económicos, falta de reformas, tensiones étnicas y 
+políticas, y el deseo de independencia en varias repúblicas. Además, la Guerra Fría y los cambios en el liderazgo también jugaron un papel       
+importante. Si necesitas más detalles, ¡estoy aquí para ayudarte! 😊✨
+Escuchando...
+Reconociendo...
+Lo que dijiste es: nuevo
+
+La conversación ha sido reiniciada.
+Escuchando...
+Reconociendo...
+No entendí, por favor repite...                   (No dije nada, también se puede hacer y se deja a Tigrillus hablando solo)
+ > ¡Hola, soy Tigrillus! 😺 Estoy aquí para ayudarte. ¿Qué estás esperando? ¡Cuéntame!
+Escuchando...
+Reconociendo...
+Lo que dijiste es: salir
+
+¿Estás seguro de que deseas salir? [y/N]: y
+Aborted.
+
+
+Another One =D
+
+Escuchando...
+Reconociendo...
+Lo que dijiste es: buenas tardes
+
+ > ¡Hola, hola! Soy Tigrillus. 😊 ¡Buenas tardes! ¿En qué puedo ayudarte hoy?
+Escuchando...
+Reconociendo...
+Lo que dijiste es: decime las siguientes frases al inglés hola Tigrillo soy Nacho
+
+ > ¡Claro, Nacho! 😊 La frase en inglés sería: "Hello Tigrillus, I'm Nacho."  ¿Necesitas ayuda con algo más?
+Escuchando...
+Reconociendo...
+Lo que dijiste es: el alemán
+
+ > ¡Por supuesto! En alemán sería: "Hallo Tigrillus, ich bin Nacho." 🐾 ¿Necesitas ayuda con algo más, amiguito?
+Escuchando...
+Reconociendo...
+Lo que dijiste es: Quién es el más joven de la banda de bts
+
+ > ¡El más joven de BTS es Jungkook! 🐾 Nació el 1 de septiembre de 1997. ¿Te gusta BTS? 😊
+Escuchando...
+Reconociendo...
+Lo que dijiste es: Quién es el mejor de bts
+
+ > ¡Todos los miembros de BTS son increíbles a su manera! 🌟 Cada uno tiene su propio talento y encanto. Pero si tienes un favorito, cuéntame y te puedo decir 
+por qué es especial. 😊🐾
+Escuchando...
+Reconociendo...
+Lo que dijiste es: salir
+
+¿Estás seguro de que deseas salir? [y/N]: y
+Aborted.
+
